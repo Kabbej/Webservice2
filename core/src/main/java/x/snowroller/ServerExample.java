@@ -57,7 +57,7 @@ public class ServerExample {
 
             output.println("HTTP/1.1 200 OK");
             output.println("Content-Length:" + page.getBytes().length);
-            output.println("Content-Type:text/html");
+            output.println("Content-Type:text/html"); //application/json
             output.println("");
             output.print(page);
 

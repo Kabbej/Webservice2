@@ -15,6 +15,8 @@ public class PluginExample {
 
         List<String> list;
 
+        loader.reload();
+
         for( var page : loader ) {
             page.execute();
         }
